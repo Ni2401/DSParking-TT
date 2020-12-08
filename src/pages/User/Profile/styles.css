@@ -1,0 +1,140 @@
+.profile {
+  display:flex;
+  width: 100%;
+  height: 100%;
+}
+/*Image*/
+.profile .div-img{
+  width: 22%;
+  height: 100%;
+  margin-right: 20px;
+}
+
+.profile .div-img .div-img-item {
+  width: 100%;
+  height: 40%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  border-radius: 6px;
+  box-shadow: 3px 4px 8px #e2d6a3;
+  background-color: #ffffff;
+}
+
+.profile .div-img .div-img-item .div-img-item-details{
+  position: relative;
+  width: 100%;
+  height: 80%;
+  background-image: linear-gradient(5deg, #f9d8bc, transparent);
+}
+.div-img-item img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 165px;
+  height:165px;
+  border-radius: 50%;
+}
+.img-profile-qrcode{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.profile .div-img .div-img-item .div-change-img{
+  width: 100%;
+  height: 20%;
+  background-color: #db5c00;
+  border-radius: 0px 0px 6px 6px;
+  cursor: pointer;
+}
+
+.div-change-img p {
+  display: flex;
+  padding: 9px 0px !important;
+  justify-content: center;
+  color: #efeaea;
+  font-size: 20px;
+}
+
+/*Information*/
+.div-information {
+  width: 80%;
+  height:100%;
+  background-color: #ffffff;
+  box-shadow: 3px 4px 8px #f0e5ba;
+  border-radius: 5px;
+}
+
+/*Form*/
+.div-information .information-content {
+  display: flex;
+  height: calc(100% - 40px);
+}
+
+.info-user-title {
+  padding: 0px 0px 0px 20px;
+  width: 30%;
+  height: 100%;
+}
+
+.info-user-title p {
+  margin-bottom: 16px !important;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.info-user-title svg {
+  margin: 0px 10px;
+}
+
+.info-user-content {
+  width: 70%;
+  height: 100%;
+}
+
+.info-user-content p{
+  margin-bottom: 16px !important;
+  font-size: 18px;
+}
+
+.ant-input{
+  margin-bottom: 11.5px !important;
+}
+
+/*Form Edit*/
+.ant-form{
+  width: 100%;
+}
+/*Tab*/
+.ant-tabs{
+  width: 100%;
+}
+.ant-tabs-nav{
+  margin: 0px 0px 3px 0px !important;
+}
+.div-btn-edit button .ant-btn-primary {
+  color: #fff;
+  background: #b69217;
+  border-color: #595e0f;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.12);
+  -webkit-box-shadow: 0 2px 0 rgba(0, 0, 0, 0.045);
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.045);
+}
+
+.ant-tab-content {
+  background-color: white !important;
+}
+.ant-form-item{
+  margin-bottom: 7px !important;
+}
+.tab-title{
+  display: flex;
+  justify-content: flex-end;
+  padding: 0px 20px;
+  height: 40px;
+}
+.ant-list {
+  height: 550px;
+  overflow: auto;
+}
